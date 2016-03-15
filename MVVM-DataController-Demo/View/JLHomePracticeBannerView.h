@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  JLHomePracticeBannerView.h
 //  MVVM-DataController-Demo
 //
 //  Created by skyline on 16/3/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface JLHomePracticeBannerView : UIView
 
 @end
-

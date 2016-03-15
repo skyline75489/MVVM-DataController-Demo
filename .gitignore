@@ -1,0 +1,26 @@
+# Xcode
+#
+.DS_Store
+build/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.zip
+*.xcuserstate
+*.xcworkspace
+
+# CocoaPods
+#
+Pods/
+Podfile.lock
+Pods-Acknowledgements.plist
+
+# AppCode
+.idea/

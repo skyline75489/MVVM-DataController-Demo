@@ -9,10 +9,19 @@
 /* Begin PBXBuildFile section */
 		2D0089611C9807830018B833 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0089601C9807830018B833 /* main.m */; };
 		2D0089641C9807830018B833 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0089631C9807830018B833 /* AppDelegate.m */; };
-		2D0089671C9807830018B833 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0089661C9807830018B833 /* ViewController.m */; };
-		2D00896A1C9807830018B833 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D0089681C9807830018B833 /* Main.storyboard */; };
 		2D00896C1C9807830018B833 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D00896B1C9807830018B833 /* Assets.xcassets */; };
 		2D00896F1C9807830018B833 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D00896D1C9807830018B833 /* LaunchScreen.storyboard */; };
+		2D00897D1C98087C0018B833 /* JLHomePracticeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D00897C1C98087C0018B833 /* JLHomePracticeViewController.m */; };
+		2D0089801C9808FD0018B833 /* JLHomePracticeBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D00897F1C9808FD0018B833 /* JLHomePracticeBannerView.m */; };
+		2D0089831C98090E0018B833 /* JLHomePracticeActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0089821C98090E0018B833 /* JLHomePracticeActivityView.m */; };
+		2D0089861C98092A0018B833 /* JLHomePracticeSubjectsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0089851C98092A0018B833 /* JLHomePracticeSubjectsView.m */; };
+		2D0089891C980A990018B833 /* JLBaseDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0089881C980A990018B833 /* JLBaseDataController.m */; };
+		2D00898C1C980B930018B833 /* JLHomePracticeSubjectsCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D00898B1C980B930018B833 /* JLHomePracticeSubjectsCollectionViewCell.m */; };
+		2D00898F1C980BBB0018B833 /* JLHomePracticeSubjectsCollectionCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D00898E1C980BBB0018B833 /* JLHomePracticeSubjectsCollectionCellViewModel.m */; };
+		2D0089921C980BDF0018B833 /* JLSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0089911C980BDF0018B833 /* JLSubject.m */; };
+		2D0089951C980CF50018B833 /* JLHomePracticeSubjectsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0089941C980CF50018B833 /* JLHomePracticeSubjectsViewModel.m */; };
+		2D0089981C98110F0018B833 /* JLHomePracticeDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0089971C98110F0018B833 /* JLHomePracticeDataController.m */; };
+		2D00899B1C98113F0018B833 /* JLSubjectDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D00899A1C98113F0018B833 /* JLSubjectDataController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +29,31 @@
 		2D0089601C9807830018B833 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2D0089621C9807830018B833 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2D0089631C9807830018B833 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2D0089651C9807830018B833 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2D0089661C9807830018B833 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2D0089691C9807830018B833 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D00896B1C9807830018B833 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D00896E1C9807830018B833 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D0089701C9807830018B833 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D00897B1C98087C0018B833 /* JLHomePracticeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLHomePracticeViewController.h; sourceTree = "<group>"; };
+		2D00897C1C98087C0018B833 /* JLHomePracticeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLHomePracticeViewController.m; sourceTree = "<group>"; };
+		2D00897E1C9808FD0018B833 /* JLHomePracticeBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLHomePracticeBannerView.h; sourceTree = "<group>"; };
+		2D00897F1C9808FD0018B833 /* JLHomePracticeBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLHomePracticeBannerView.m; sourceTree = "<group>"; };
+		2D0089811C98090E0018B833 /* JLHomePracticeActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLHomePracticeActivityView.h; sourceTree = "<group>"; };
+		2D0089821C98090E0018B833 /* JLHomePracticeActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLHomePracticeActivityView.m; sourceTree = "<group>"; };
+		2D0089841C98092A0018B833 /* JLHomePracticeSubjectsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLHomePracticeSubjectsView.h; sourceTree = "<group>"; };
+		2D0089851C98092A0018B833 /* JLHomePracticeSubjectsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLHomePracticeSubjectsView.m; sourceTree = "<group>"; };
+		2D0089871C980A990018B833 /* JLBaseDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLBaseDataController.h; sourceTree = "<group>"; };
+		2D0089881C980A990018B833 /* JLBaseDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLBaseDataController.m; sourceTree = "<group>"; };
+		2D00898A1C980B930018B833 /* JLHomePracticeSubjectsCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLHomePracticeSubjectsCollectionViewCell.h; sourceTree = "<group>"; };
+		2D00898B1C980B930018B833 /* JLHomePracticeSubjectsCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLHomePracticeSubjectsCollectionViewCell.m; sourceTree = "<group>"; };
+		2D00898D1C980BBB0018B833 /* JLHomePracticeSubjectsCollectionCellViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLHomePracticeSubjectsCollectionCellViewModel.h; sourceTree = "<group>"; };
+		2D00898E1C980BBB0018B833 /* JLHomePracticeSubjectsCollectionCellViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLHomePracticeSubjectsCollectionCellViewModel.m; sourceTree = "<group>"; };
+		2D0089901C980BDF0018B833 /* JLSubject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLSubject.h; sourceTree = "<group>"; };
+		2D0089911C980BDF0018B833 /* JLSubject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLSubject.m; sourceTree = "<group>"; };
+		2D0089931C980CF50018B833 /* JLHomePracticeSubjectsViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLHomePracticeSubjectsViewModel.h; sourceTree = "<group>"; };
+		2D0089941C980CF50018B833 /* JLHomePracticeSubjectsViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLHomePracticeSubjectsViewModel.m; sourceTree = "<group>"; };
+		2D0089961C98110F0018B833 /* JLHomePracticeDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLHomePracticeDataController.h; sourceTree = "<group>"; };
+		2D0089971C98110F0018B833 /* JLHomePracticeDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLHomePracticeDataController.m; sourceTree = "<group>"; };
+		2D0089991C98113F0018B833 /* JLSubjectDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLSubjectDataController.h; sourceTree = "<group>"; };
+		2D00899A1C98113F0018B833 /* JLSubjectDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLSubjectDataController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,15 +86,17 @@
 		2D00895E1C9807830018B833 /* MVVM-DataController-Demo */ = {
 			isa = PBXGroup;
 			children = (
+				2D0089791C9808440018B833 /* DataController */,
+				2D0089781C98083E0018B833 /* Model */,
+				2D00895F1C9807830018B833 /* Supporting Files */,
+				2D0089761C98082D0018B833 /* View */,
+				2D00897A1C98085A0018B833 /* ViewController */,
+				2D0089771C9808330018B833 /* ViewModel */,
 				2D0089621C9807830018B833 /* AppDelegate.h */,
 				2D0089631C9807830018B833 /* AppDelegate.m */,
-				2D0089651C9807830018B833 /* ViewController.h */,
-				2D0089661C9807830018B833 /* ViewController.m */,
-				2D0089681C9807830018B833 /* Main.storyboard */,
 				2D00896B1C9807830018B833 /* Assets.xcassets */,
-				2D00896D1C9807830018B833 /* LaunchScreen.storyboard */,
 				2D0089701C9807830018B833 /* Info.plist */,
-				2D00895F1C9807830018B833 /* Supporting Files */,
+				2D00896D1C9807830018B833 /* LaunchScreen.storyboard */,
 			);
 			path = "MVVM-DataController-Demo";
 			sourceTree = "<group>";
@@ -76,7 +106,64 @@
 			children = (
 				2D0089601C9807830018B833 /* main.m */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2D0089761C98082D0018B833 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2D0089811C98090E0018B833 /* JLHomePracticeActivityView.h */,
+				2D0089821C98090E0018B833 /* JLHomePracticeActivityView.m */,
+				2D00897E1C9808FD0018B833 /* JLHomePracticeBannerView.h */,
+				2D00897F1C9808FD0018B833 /* JLHomePracticeBannerView.m */,
+				2D00898A1C980B930018B833 /* JLHomePracticeSubjectsCollectionViewCell.h */,
+				2D00898B1C980B930018B833 /* JLHomePracticeSubjectsCollectionViewCell.m */,
+				2D0089841C98092A0018B833 /* JLHomePracticeSubjectsView.h */,
+				2D0089851C98092A0018B833 /* JLHomePracticeSubjectsView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2D0089771C9808330018B833 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2D00898D1C980BBB0018B833 /* JLHomePracticeSubjectsCollectionCellViewModel.h */,
+				2D00898E1C980BBB0018B833 /* JLHomePracticeSubjectsCollectionCellViewModel.m */,
+				2D0089931C980CF50018B833 /* JLHomePracticeSubjectsViewModel.h */,
+				2D0089941C980CF50018B833 /* JLHomePracticeSubjectsViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2D0089781C98083E0018B833 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2D0089901C980BDF0018B833 /* JLSubject.h */,
+				2D0089911C980BDF0018B833 /* JLSubject.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2D0089791C9808440018B833 /* DataController */ = {
+			isa = PBXGroup;
+			children = (
+				2D0089871C980A990018B833 /* JLBaseDataController.h */,
+				2D0089881C980A990018B833 /* JLBaseDataController.m */,
+				2D0089961C98110F0018B833 /* JLHomePracticeDataController.h */,
+				2D0089971C98110F0018B833 /* JLHomePracticeDataController.m */,
+				2D0089991C98113F0018B833 /* JLSubjectDataController.h */,
+				2D00899A1C98113F0018B833 /* JLSubjectDataController.m */,
+			);
+			path = DataController;
+			sourceTree = "<group>";
+		};
+		2D00897A1C98085A0018B833 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2D00897B1C98087C0018B833 /* JLHomePracticeViewController.h */,
+				2D00897C1C98087C0018B833 /* JLHomePracticeViewController.m */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +225,6 @@
 			files = (
 				2D00896F1C9807830018B833 /* LaunchScreen.storyboard in Resources */,
 				2D00896C1C9807830018B833 /* Assets.xcassets in Resources */,
-				2D00896A1C9807830018B833 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,8 +235,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D0089671C9807830018B833 /* ViewController.m in Sources */,
+				2D0089891C980A990018B833 /* JLBaseDataController.m in Sources */,
+				2D0089801C9808FD0018B833 /* JLHomePracticeBannerView.m in Sources */,
+				2D00898C1C980B930018B833 /* JLHomePracticeSubjectsCollectionViewCell.m in Sources */,
+				2D0089951C980CF50018B833 /* JLHomePracticeSubjectsViewModel.m in Sources */,
+				2D0089861C98092A0018B833 /* JLHomePracticeSubjectsView.m in Sources */,
+				2D0089921C980BDF0018B833 /* JLSubject.m in Sources */,
+				2D0089831C98090E0018B833 /* JLHomePracticeActivityView.m in Sources */,
+				2D00898F1C980BBB0018B833 /* JLHomePracticeSubjectsCollectionCellViewModel.m in Sources */,
 				2D0089641C9807830018B833 /* AppDelegate.m in Sources */,
+				2D00899B1C98113F0018B833 /* JLSubjectDataController.m in Sources */,
+				2D00897D1C98087C0018B833 /* JLHomePracticeViewController.m in Sources */,
+				2D0089981C98110F0018B833 /* JLHomePracticeDataController.m in Sources */,
 				2D0089611C9807830018B833 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -158,20 +254,13 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2D0089681C9807830018B833 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2D0089691C9807830018B833 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2D00896D1C9807830018B833 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				2D00896E1C9807830018B833 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -300,6 +389,7 @@
 				2D0089751C9807830018B833 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
